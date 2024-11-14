@@ -1,20 +1,43 @@
-input{
-    height: 20px;
-    border-radius: 5px;
-  }
-  input:hover{
-    box-shadow: 0.5px 1px 0.5px black;
-  }
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.container {
 
-  button{
-    height: 23px;
-    border-radius: 5px;
-    border:  1px solid black;
-  }
+  margin: 50px;
+  border: 1px solid black;
+  padding: 20px 20px;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 1px black;
+  background-color: #ffffff14;
+}
 
-  button:hover{
-   
-    background-color: blue;
-    color: #fff;
-    border-radius: 5px;
-  }
+h2 {
+  margin-left: 5px;
+}
+input {
+  margin-left: 5px;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+
+button {
+  margin: 5px;
+  height: 23px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+}

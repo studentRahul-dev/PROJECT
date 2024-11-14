@@ -22,9 +22,8 @@ ul.addEventListener("click", function (event) {
     let listItem = event.target.parentElement;
     listItem.remove();
     console.log("deleted!");
-  } 
+  }
 });
-
 
 if (input.value == "") {
   let p = document.createElement("p");
